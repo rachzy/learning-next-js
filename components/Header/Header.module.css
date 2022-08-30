@@ -1,0 +1,21 @@
+div.header {
+    display: flex;
+
+    width: 100%;
+    padding: 1vh;
+    background: linear-gradient(to top right, rgba(255, 86, 34, 0.788) 0%, rgba(251, 140, 0, 1) 100%);
+}
+
+div.header h1 {
+    color: white;
+    text-align: center;
+    font-size: 4vh;
+    line-height: 1px;
+    cursor: pointer;
+
+    transition: 0.2s all;
+}
+
+div.header h1:hover {
+    transform: scale(1.05);
+}

@@ -1,0 +1,11 @@
+div.goBack {
+    color: gray;
+    margin: 2vh 5vh;
+    align-self: flex-start;
+
+    transition: 0.2s all;
+}
+
+div.goBack:hover {
+    transform: scale(1.05);
+}

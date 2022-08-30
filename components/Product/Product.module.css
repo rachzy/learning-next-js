@@ -1,0 +1,32 @@
+div.product {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 200px;
+    height: 350px;
+
+    margin: 2vh;
+    padding: 5vh;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+div.product img {
+    transition: 0.2s all;
+}
+
+div.product img:hover {
+    transform: scale(1.1);
+}
+
+div.product p.productTitle {
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+div.product p.productTitle:hover {
+    text-decoration: underline;
+}
